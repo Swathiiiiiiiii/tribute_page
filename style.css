@@ -1,0 +1,21 @@
+h1{
+
+    color: rgb(218, 32, 32);
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+  margin-top: -5%;
+    font-size: 40px;
+    color:rgb(8, 81, 101);
+    text-align:center;
+}
+p{
+    line-height:2;
+ font-size: larger;
+ text-align:center;
+ margin-left: 5%;
+ margin-right:5%;
+    
+}

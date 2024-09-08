@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+        .box{
+            width: 350px;
+    height: 500px;
+    padding: 20px;
+
+    background-color: #f9f9f9;  
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;  
+    border-radius: 10%; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fbea30; 
+    
+        }
+        details {
+            margin-bottom: 10px;  /* Spacing between sections */
+            background-color: #ffffff;  /* White background for each section */
+            border-radius: 5px;  /* Rounded corners for each section */
+            overflow: hidden;  /* Ensures no overflow */
+        }
+
+        summary {
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 10px;  /* Padding for each summary */
+            background-color: #f7a325;  /* Green background for the header */
+            color: #ffffff;  /* White text color */
+        }
+
+        summary i {
+            color: gold;
+            margin-right: 10px;
+        }
+
+        details[open] summary::after {
+            content: " ▲";
+            margin-left: auto;
+        }
+
+        summary::after {
+            content: " ▼";
+            margin-left: auto;
+        }
+
+        details p {
+            margin: 10px 20px;  /* Margin for paragraph content */
+        }
+    </style>
+   
+</head>
+<body>
+    <h1 style="text-align:center;font-size:50px;color:brown">Her life story</h1>
+    <center>
+    <div class="box">
+        <details>
+            <summary><i class="fas fa-star"></i>Early Life</summary>
+            <p>Vinesh Phogat was born on August 25, 1994, in Balali, a small village in the Bhiwani district of Haryana,
+             India. She hails from a prominent family of wrestlers, including her cousins Geeta and Babita Phogat, both well-known athletes. 
+             From an early age, Vinesh trained rigorously under the guidance of her uncle, Mahavir Singh Phogat, a respected wrestling coach who had already made a name for 
+                himself by mentoring other family members in the sport.</p>
+        </details>
+    
+        <details>
+            <summary><i class="fas fa-star"></i>Education</summary>
+            <p>Vinesh Phogat pursued her education alongside her wrestling career. While her primary focus was on excelling in sports, she managed to 
+                balance both her academic and athletic commitments. Vinesh attended local schools in Haryana, where she completed her basic education.
+                 Like many athletes, her rigorous training schedule 
+                and competitions meant that formal education often took a backseat to her athletic ambitions.</p>
+        </details>
+    
+        <details>
+            <summary><i class="fas fa-star"></i>Career</summary>
+            <p>wrestling family. Trained by her uncle Mahavir Singh Phogat, she started competing in national tournaments early on,
+                 quickly making a name for herself with her impressive skills and determination. 
+                Her first major breakthrough came when she won the bronze medal at the 2013 Asian Wrestling Championships,
+                 establishing herself as a rising star in Indian wrestling.
+                 Over the years, Vinesh continued to shine, winning her first gold medal at the 2014 Commonwealth Games in
+                  Glasgow, where she competed in the 48 kg weight category. This victory solidified her position as one of
+                   India's top wrestlers. She further added to her accolades by earning a bronze medal at the 2014 Asian Games 
+                   and a silver at the 2015 Asian Wrestling Championships.
+            </p>
+        </details>
+    
+        <details>
+            <summary><i class="fas fa-star"></i>Personal Life</summary>
+            <p>vinesh coming from the renowned Phogat family, she grew up in an environment that emphasized hard work, discipline, 
+                and dedication to wrestling. Despite the rigorous demands of her athletic career, Vinesh maintains close
+                 ties with her cousins, Geeta and Babita Phogat, 
+                
+                both of whom have also made significant contributions to Indian wrestling.
+
+                Outside of wrestling, Vinesh is passionate about advocating for women's rights and empowerment, 
+                particularly in rural India. She has been vocal about the challenges faced by women athletes and has 
+                used her platform to inspire young girls to pursue their dreams, whether in sports or other fields.</p>
+        </details>
+        <img src="vi.jpeg" alt="" style="margin-top: 50px;height:200px">
+    </div>
+
+</center>
+    
+</body>
+</html>
